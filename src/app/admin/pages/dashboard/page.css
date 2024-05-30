@@ -1,0 +1,241 @@
+
+/* Thiết lập breakpoints cho điện thoại di động */
+@media only screen and (max-width: 600px) {
+    .dashboard-container {
+        background-color: #F8F9FA;
+      }
+      
+      .card-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .card {
+        background-color: white;
+        width: calc(100% - 1px);
+        height: 70px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 25px;
+        margin-top: 10px;
+      }
+      
+      .card-title {
+        color: #9E9E9E;
+        font-weight: 500;
+        font-size: 23px !important;
+      }
+      
+      .card-content {
+        display: flex;
+      }
+      
+      .card-number {
+        font-weight: bold !important;
+        font-size: 24px !important;
+      }
+      
+      .card-access {
+        color: black;
+        font-size: 20px !important;
+        margin-top: 3px !important;
+        margin-left: 8px !important;
+      }
+      
+      .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      .article-section {
+        width: calc(100% - 1px);
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      
+      .sidebar {
+        width: calc(100% - 1px);
+      } 
+      .line {
+        width: calc(100% - 1px);
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      .card-view-content {
+        padding: 10px;
+        color: #9E9E9E;
+        font-size: 24px !important;
+        display: flex,
+      }
+    }
+
+/* Thiết lập breakpoints cho máy tính bảng iPad */
+@media only screen and (min-width: 601px) and (max-width: 1279px) {
+   
+    .dashboard-container {
+        background-color: #F8F9FA;
+      }
+      
+      .card-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .card {
+        background-color: white;
+        width: calc(40% - 5px);
+        height: 70px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 25px;
+        margin-top: 10px;
+      }
+      
+      .card-title {
+        color: #9E9E9E;
+        font-weight: 500;
+        font-size: 23px !important;
+      }
+      
+      .card-content {
+        display: flex;
+      }
+      
+      .card-number {
+        font-weight: bold !important;
+        font-size: 24px !important;
+      }
+      
+      .card-access {
+        color: black;
+        font-size: 20px !important;
+        margin-top: 3px !important;
+        margin-left: 8px !important;
+      }
+      
+      .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #F8F9FA;
+      }
+      
+      .article-section {
+        width: calc(40% - 5px);
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      
+      .sidebar {
+        width: calc(60% - 5px);
+      } 
+      .line {
+        width: calc(100% - 5px);
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      .card-view-content {
+        padding: 10px;
+        color: #9E9E9E;
+        font-size: 24px !important;
+        display: flex,
+      }
+}
+
+/* Thiết lập breakpoints cho máy tính xách tay (laptop) */
+@media only screen and (min-width: 1280px) {
+   
+    .dashboard-container {
+        background-color: #F8F9FA;
+      }
+      
+      .card-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .card {
+        background-color: white;
+        width: calc(22% - 20px);
+        height: 70px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 25px;
+      }
+      
+      .card-title {
+        color: #9E9E9E;
+        font-weight: 500;
+        font-size: 23px !important;
+      }
+      
+      .card-content {
+        display: flex;
+      }
+      
+      .card-number {
+        font-weight: bold !important;
+        font-size: 24px !important;
+      }
+      
+      .card-access {
+        color: black;
+        font-size: 20px !important;
+        margin-top: 3px !important;
+        margin-left: 8px !important;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #F8F9FA;
+      }
+      
+      .article-section {
+        width: calc(40% - 5px);
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      
+      .sidebar {
+        width: calc(60% - 5px);
+      } 
+      .line {
+        width: calc(100% - 5px);
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      .card-view-content {
+        padding: 10px;
+        color: #9E9E9E;
+        font-size: 24px !important;
+        display: flex,
+      }
+
+}

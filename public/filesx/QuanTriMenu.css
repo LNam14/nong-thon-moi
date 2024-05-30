@@ -1,0 +1,565 @@
+﻿/***Menu Left***/
+.leftmenu .hide {
+	display: block !important;
+}
+
+#menu-left {
+	margin-bottom: 10px;
+}
+
+#menu-left .hideChildren {
+	display: none;
+}
+
+#menu-left {
+	width: 100%;
+}
+
+#menu-left ul,
+#menu-left ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#menu-left .divnoicon {
+	display: none;
+}
+
+#menu-left . container-LV1 {
+	position: relative;
+}
+
+#menu-left div.containerdiv-LV2 {
+	background-color: #2762B9;
+}
+
+#menu-left div.containerdiv-LV2 a.contentlink-LV2 {
+	width: 100%;
+	min-width: 250px;
+	border-top: 1px #BCBCBC solid;
+	border-bottom: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#menu-left div.containerdiv-LV2 a.contentlink-LV2:hover {
+	background-color: #214D8E;
+}
+
+#menu-left .content-LV1 a,
+#menu-left .content-LV1 a:link,
+#menu-left .content-LV1 a:visited {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#menu-left .content-LV1 a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#menu-left .content-LV1.hasChildren .contentlink-LV1:after {
+	font-family: FontAwesome;
+	font-size: 13px;
+	color: #fff;
+	content: "\f0da";
+	padding-left: 6px;
+}
+
+#menu-left .content-LV1.hasChildren:hover .contentlink-LV1:after {
+	font-family: FontAwesome;
+	font-size: 13px;
+	color: #fff;
+	content: "\f0d7";
+	padding-left: 6px;
+}
+
+#menu-left .showChildren a:hover {
+	text-decoration: none;
+	color: #d00;
+}
+
+.leftmenu-LV2 .content-LV2 a {
+	display: block;
+	padding: 7px 5px 7px 10px;
+	border-top: 1px #fff solid;
+	border-bottom: 1px #d5d5d5 solid;
+	text-transform: none;
+}
+
+.leftmenu-LV2 .content-LV2 a:hover {
+	cursor: pointer;
+	background: transparent;
+}
+
+#menu-left .contenticon {
+	float: left;
+	width: 20px;
+	margin-left: 5px;
+	text-align: center;
+	height: 27px;
+	padding-top: 7px;
+}
+
+#menu-left .content-LV1 .contenticon {
+	display: none;
+}
+
+#menu-left .content-LV1 a {
+	padding-left: 15px;
+}
+
+#menu-left .contenticon img {
+	display: none;
+}
+
+#menu-left .showChildren a,
+#menu-left .showChildren a:link,
+#menu-left .showChildren a:visited,
+#menu-left .showChildren span {
+	text-decoration: none;
+	color: #333;
+	font-size: 13px;
+	font-family: Segoe UI;
+}
+
+#menu-left .showChildren a.Selected,
+#menu-left .showChildren a.showChildren {
+	color: #000;
+	cursor: pointer;
+}
+
+@media (min-width:768px) {
+
+	div.containerdiv-LV2.showChildren,
+	div.containerdiv-LV3.showChildren {
+		display: none;
+		position: absolute;
+		right: 100%;
+		top: 39px !important;
+	}
+
+	#menu-left ul li.leftmenu-LV1:hover .showChildren {
+		display: inline-block;
+	}
+}
+
+#menu-left .content-LV1 {
+	background: #017D29;
+}
+
+#menu-left .content-LV1:hover {
+	background: #214D8E;
+}
+
+#menu-left .content-LV1 a {
+	display: block;
+	padding: 7px 10px 7px 10px;
+	font-size: 14px;
+	border-top: 1px #BCBCBC solid;
+}
+
+@media (max-width:767px) {
+	#menu-left .content-LV1 a {
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+
+	.leftmenu-LV2 .content-LV2 a {
+		padding: 10px 5px 10px 25px;
+	}
+
+	#menu-left .contenticon {
+		padding-top: 10px;
+	}
+}
+
+/***Menu Quan tri***/
+/***css code***/
+.over {
+	outline: solid 1px #afa;
+}
+
+.on {
+	background: green;
+	border: solid 1px green;
+}
+
+.below {
+	border-bottom: solid 2px #ddf;
+}
+
+.above {
+	border-top: solid 2px #ddf;
+}
+
+.tree_hover {
+	background: #fafaff;
+}
+
+ul.tree,
+ul.tree ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.tree,
+ul.tree ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.tree li {
+	cursor: pointer;
+	padding: 5px 0 5px 10px;
+}
+
+ul.tree li ul li {
+	cursor: pointer;
+	padding-left: 12px;
+}
+
+ul.tree li a {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+ul.tree li a,
+ul.tree li a:link,
+ul.tree li a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	font-weight: bold;
+}
+
+li.expanded .showicon {
+	background: url("/Style Library/LacViet/QuanTriMenu/Images/icons/folder-sub.png") no-repeat left center !important;
+	padding-left: 30px;
+}
+
+li.collapsed .showicon {
+	background: url("/Style Library/LacViet/QuanTriMenu/Images/icons/folder-add.png") no-repeat left center !important;
+	padding-left: 30px;
+}
+
+ul.tree li:hover a,
+ul.tree li a.caption.Selected {
+	color: #d00;
+	font-weight: bold;
+}
+
+ul.tree li.collapsed:hover {
+	cursor: pointer;
+}
+
+ul.tree li.expanded ul li.expanded ul li .showicon {
+	background: url("/Style Library/LacViet/QuanTriMenu/Images/icons/document_yellow.png") no-repeat left center !important;
+	padding-left: 20px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+}
+
+ul.tree li.expanded ul li ul li:hover .showicon {
+	background: url("/Style Library/LacViet/QuanTriMenu/Images/icons/document_red.png") no-repeat left center !important;
+	padding-left: 20px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+}
+
+span.callback {
+	color: #333;
+	font-size: .8em;
+	margin-right: 5px;
+}
+
+ul.tree li span.cmds {
+	float: right;
+	display: block;
+	line-height: .8em;
+}
+
+#Events {
+	border: solid 1px #aaa;
+	padding: 10px;
+	font-family: courier;
+	font-size: 10px;
+	color: #666;
+	height: 80px;
+	max-height: 80px;
+	overflow: auto;
+}
+
+div.demo,
+div.syntaxhighlighter {
+	border: double 3px #aaa;
+	padding: 10px 20px;
+	box-shadow: inset 2px 2px 2px #ccc;
+}
+
+div.syntaxhighlighter div.toolbar {
+	display: none;
+}
+
+table.options tr td:first-child {
+	font-family: courier;
+	padding-right: 1em;
+	vertical-align: top;
+}
+
+/****/
+ul.tree li ul li a {
+	text-decoration: none;
+}
+
+ul.tree li ul li a,
+ul.tree li ul li a:link,
+ul.tree li ul li a:visited {
+	color: #333;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+ul.tree li a.caption {
+	color: #333;
+	font-weight: bold;
+}
+
+ul.tree li a.caption:hover {
+	text-decoration: none;
+	color: #d00;
+	font-weight: bold;
+}
+
+/*** menu quan tri ***/
+.ms-admin * {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.ms-admin {
+	border-collapse: collapse;
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+.ms-admin td {
+	color: #000;
+}
+
+.ms-adCont td.ms-menu-treview {
+	width: 300px;
+}
+
+.ms-adCont td.ms-menu-content textarea {
+	height: 40px;
+}
+
+.ms-adCont td.ms-menu-content .ms-usereditor {
+	width: 100%;
+}
+
+.ms-adCont td.ms-menu-content .ms-usereditor div.ms-inputBox {
+	height: 35px !important;
+}
+
+.admnInfo table td {
+	padding: 4px 15px;
+}
+
+.ms-adHeadtd {
+	height: 36px;
+	border: 1px #a1beda solid;
+}
+
+td.auto-style1 {
+	width: 30%;
+	padding-left: 2px;
+}
+
+.ms-adHead-ControlDrop {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+.ms-adHead-ControlDrop select {
+	padding: 5px;
+	color: #333;
+	border: 1px #ccc solid;
+	background-color: white;
+}
+
+.divNutControl div {
+	display: inline;
+	float: left;
+}
+
+.ThemMoiCauTruc,
+.SuaCauTruc,
+.Setting {
+	line-height: 22px;
+	height: 24px;
+	min-width: 40px;
+	text-align: center;
+	margin-left: 5px;
+	border-radius: 3px;
+	padding-top: 0px;
+}
+
+.ThemMoiCauTruc input,
+.SuaCauTruc input,
+.Setting input {
+	width: auto !important;
+	height: auto !important;
+}
+
+.divNutControl div:hover {
+	background-color: #017D29;
+	cursor: pointer;
+}
+
+.div-headControl {
+	position: absolute;
+	right: 5px;
+	top: 2px;
+}
+
+/***Button***/
+.Action-Save {
+	padding-top: 2px;
+}
+
+div.Action-Save input[type=submit] {
+	border-radius: 3px;
+	color: #fff;
+	box-sizing: border-box;
+	min-width: 10px;
+	padding: 4px 18px 4px 18px !important;
+	border: 0;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.Action-Save input:hover {
+	background-color: #017D29;
+}
+
+.ms-menu-treview,
+.ms-menu-content {
+	border: 1px #ccc solid;
+}
+
+.ms-menu-treview>table>tbody>tr,
+.ms-menu-treview>table>tbody>tr>td {
+	display: block;
+}
+
+.QuanTriMenu-Left {
+	height: 524px;
+	overflow: auto;
+}
+
+.QuanTriMenu-Left input.input-node {
+	padding: 5px;
+	border-radius: 3px;
+	width: 96%;
+}
+
+.QuanTriMenu-Left input.input-click {
+	padding: 0;
+	margin-top: 3px;
+	border-radius: 3px;
+	margin-left: 0;
+	background-color: #eee
+}
+
+.menu-center {
+	height: 557px;
+	overflow: auto;
+}
+
+.menu-header,
+.admnInfoHead {
+	background-color: #e2e2e2;
+	border-bottom: 1px #ccc solid;
+	height: 32px;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+.menu-header span {
+	margin-left: 3px;
+}
+
+.menu-header div {
+	cursor: pointer;
+	padding: 2px 8px;
+	line-height: 24px;
+	border: solid 1px transparent;
+	float: left;
+	display: inline-block;
+	border-right: 1px #c5c5c5 solid;
+}
+
+.menu-header div:hover {
+	background: #fff6d8;
+	cursor: pointer;
+}
+
+.mas-system .admnInfoTop select,
+.mas-system .admnInfoTop input[type=text],
+.mas-system .admnInfoTop textarea {
+	width: 100%;
+}
+
+@media (max-width:992px) {
+
+	div.admnInfoTop table td,
+	div.admnInfoCont table td {
+		display: block;
+	}
+
+	div.admnInfoTop table td.field-control,
+	div.admnInfoCont table td.field-control {
+		width: 100% !important;
+	}
+
+	.menu-center {
+		height: 852px;
+	}
+
+	.QuanTriMenu-Left {
+		height: 816px;
+	}
+
+	ul.tree li {
+		cursor: pointer;
+		padding: 10px 0 10px 10px;
+	}
+}
+
+@media (max-width:767px) {
+	.menu-center {
+		height: 912px;
+	}
+
+	.QuanTriMenu-Left {
+		height: 876px;
+	}
+}
+
+/*** 29/6/2015  ***/

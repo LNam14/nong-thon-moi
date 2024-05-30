@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"  
+    restart: always
+  db:
+    image: mysql:8.1  
+    environment:
+      DB_USER: root
+      DB_PASSWORD: 12345678
+      DB_NAME: data
+    ports:
+      - "3306:3306" 
+    volumes:
+      - data:/var/lib/mysql/data 
+
+volumes:
+  data:

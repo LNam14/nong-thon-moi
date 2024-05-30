@@ -1,0 +1,104 @@
+﻿p {
+  margin-bottom: 20px;
+}
+
+.clearout {
+  height: 20px;
+  clear: both;
+}
+
+#flexiselDemo1,
+#flexiselDemo2,
+#flexiselDemo3 {
+  display: none;
+}
+
+.nbs-flexisel-container {
+  position: relative;
+  max-width: 100%;
+}
+.nbs-flexisel-ul {
+  position: relative;
+  width: 9999px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nbs-flexisel-inner {
+  overflow: hidden;
+  float: left;
+  width: 99.8%;
+  /* background:#fcfcfc;
+    background: #fcfcfc -moz-linear-gradient(top, #fcfcfc 0%, #eee 100%); */ /* FF3.6+ */
+  /*background: #fcfcfc -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#eee)); */ /* Chrome,Safari4+ */
+  /*background: #fcfcfc -webkit-linear-gradient(top, #fcfcfc 0%, #eee 100%); */ /* Chrome10+,Safari5.1+ */
+  /*background: #fcfcfc -o-linear-gradient(top, #fcfcfc 0%, #eee 100%); */ /* Opera11.10+ */
+  /* background: #fcfcfc -ms-linear-gradient(top, #fcfcfc 0%, #eee 100%); */ /* IE10+ */
+  /* background: #fcfcfc linear-gradient(top, #fcfcfc 0%, #eee 100%); */ /* W3C */
+  /*border:1px solid #ccc;*/
+  display: block;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 190px;
+  overflow: hidden;
+}
+@media (max-width: 990px) {
+  .nbs-flexisel-inner {
+    width: 99.6%;
+  }
+}
+@media (max-width: 450px) {
+  .nbs-flexisel-inner {
+    width: 99.4%;
+  }
+}
+.nbs-flexisel-item {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  position: relative;
+  line-height: 0px;
+}
+.nbs-flexisel-item img {
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 210px;
+  max-height: 200px;
+  height: 200px;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: -33px !important;
+}
+.nbs-flexisel-nav-left {
+  right: 40px;
+  background: url("./preOff.png") no-repeat;
+}
+.nbs-flexisel-nav-right {
+  right: 10px;
+  background: url("./nextOff.png") no-repeat;
+}
+.nbs-flexisel-nav-left:hover {
+  background: url("./preOn.png") no-repeat;
+}
+.nbs-flexisel-nav-right:hover {
+  background: url("./nextOn.png") no-repeat;
+}

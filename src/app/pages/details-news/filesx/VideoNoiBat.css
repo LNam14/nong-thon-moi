@@ -1,0 +1,115 @@
+﻿.lv-v-noibat{
+		box-shadow: 0 0 6px #B0A090;
+		background-color:#fff;
+		border-radius:5px;
+		width:1040px;
+		display:inline-block;
+}
+.lv-v-noibat .newstopC{
+	color:#333;
+	padding-left:10px;
+}
+.lv-v-noibat .newstopC:before{
+	font:normal normal normal 14px/1 FontAwesome;
+	content:"\f03d";
+	padding-right:5px;
+}
+.lv-v-noibat .lv-media-intro{
+	line-height:33px;
+	height:33px;
+}
+.lv-media-thumb{
+	width:65%;
+	height:415px;
+	float:left;
+}
+.lv-v-noibat .media-body{
+	float:left;
+	clear:none;
+	margin:0px;
+	width:35%;
+	overflow:hidden;	
+	background-color:#EBEBEB;
+	border-radius:0 5px 5px 0;
+}
+.lv-v-noibat .playmedia{
+	clear:both;
+	width:100%!important;	
+	margin:0px!important;
+	border-top:1px #fff solid;	
+}
+.lv-v-noibat .playmedia:first-child{
+	border-top:1px transparent solid;	
+}
+.lv-v-noibat .playmedia .media-item{
+	height:105px;
+	cursor:pointer;
+	padding:10px 15px;	
+}
+.lv-v-noibat .media-item-title{
+	float:left;	
+	width:175px;
+	height:auto!important;
+	max-height:none!important;
+	padding-top:0px;
+}
+.lv-v-noibat .media-item-title .item-tt{
+	max-height:32px;
+	overflow:hidden;
+	line-height:16px;
+	font-weight:bold;	
+	display:block;	
+	text-align:justify;
+	color:#426D94;
+}
+.lv-v-noibat .media-item-title .item-mt{
+	clear:both;
+	max-height:48px;
+	overflow:hidden;
+	line-height:16px;
+	display:block;	
+	text-align:justify;
+}
+.lv-v-noibat .media-item-image{
+	float:left;
+	height:82px;
+	width:120px;
+	margin-right:5px;
+	position:relative;
+}
+.lv-v-noibat .media-item-image img{
+	height:82px;
+	width:120px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+.lv-v-noibat .media-item-image div{
+	position:absolute;
+	top:25px;
+	left:38px;
+	z-index:2;
+}
+.lv-v-noibat .media-item-image div img{
+	width:40px;
+	height:40px;
+	border:none;
+}
+.noibat-active{
+	background-color:#F0DFDF!important;
+	boder-radius:2px;
+}
+.playmedia:hover{
+	background-color:#F0DFDF;	
+	boder-radius:2px;
+}
+.lv-media-intro{
+	background-color:#860000;
+	height:30px;
+	line-height:30px;
+	text-transform:uppercase;
+	border-radius:0 5px 0 0;
+	padding-left:10px;
+	color:#fff;
+}

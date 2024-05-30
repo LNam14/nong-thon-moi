@@ -1,0 +1,217 @@
+/* styles.css */
+@media only screen and (max-width: 600px) {
+    .box-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(75% - 5px);
+        background-color: #ffffff; /* background.paper */
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.16); /* assuming this is the intended shadow */
+        padding: 16px; /* p: 4 */
+        border-radius: 5px;
+        overflow-y: auto;
+        max-height: 80vh;
+      }
+    
+      .title {
+        font-size: 22px !important;
+        font-weight: bold !important;
+        border-bottom: 2px solid #d9d9d9 ;
+        margin-bottom: 8px; 
+        margin-left: 2px; 
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .main-heading {
+        font-size: 20px !important;
+        font-weight: bold !important;
+        color: #010457 !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .date-info {
+        font-size: 16px !important;
+        font-weight: 400 !important; 
+        color: grey ;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .additional-title {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-style: italic !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .content {
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .footer {
+        font-size: 16px !important;
+        text-align: right !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .viewers {
+        font-size: 16px !important;
+        text-align: left !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .button-container {
+        display: flex !important;
+        justify-content: space-between !important;
+        margin-top: 16px !important; /* changed from 2 to 16 */
+      }
+      
+      .button {
+        margin-left: 8px !important; /* changed from 2 to 8 */
+      }
+      
+}
+@media only screen and (min-width: 601px) and (max-width: 1279px) {
+    .box-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(75% - 5px);
+        background-color: #ffffff; /* background.paper */
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.16); /* assuming this is the intended shadow */
+        padding: 16px; /* p: 4 */
+        border-radius: 5px;
+        overflow-y: auto;
+        max-height: 80vh;
+      }
+      
+      .title {
+        font-size: 22px !important;
+        font-weight: bold !important;
+        border-bottom: 2px solid #d9d9d9 ;
+        margin-bottom: 8px; 
+        margin-left: 2px; 
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .main-heading {
+        font-size: 20px !important;
+        font-weight: bold !important;
+        color: #010457 !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .date-info {
+        font-size: 16px !important;
+        font-weight: 400 !important; 
+        color: grey ;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .additional-title {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-style: italic !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .content {
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .footer {
+        font-size: 16px !important;
+        text-align: right !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .viewers {
+        font-size: 16px !important;
+        text-align: left !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .button-container {
+        display: flex !important;
+        justify-content: space-between !important;
+        margin-top: 16px !important; /* changed from 2 to 16 */
+      }
+      
+      .button {
+        margin-left: 8px !important; /* changed from 2 to 8 */
+      }
+      
+}
+@media only screen and (min-width: 1280px) {
+    .box-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(55% - 5px);
+        background-color: #ffffff; /* background.paper */
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.16); /* assuming this is the intended shadow */
+        padding: 16px; /* p: 4 */
+        border-radius: 5px;
+        overflow-y: auto;
+        max-height: 80vh;
+      }
+      
+      .title {
+        font-size: 22px !important;
+        font-weight: bold !important;
+        border-bottom: 2px solid #d9d9d9 ;
+        margin-bottom: 8px; 
+        margin-left: 2px; 
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .main-heading {
+        font-size: 20px !important;
+        font-weight: bold !important;
+        color: #010457 !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .date-info {
+        font-size: 16px !important;
+        font-weight: 400 !important; 
+        color: grey ;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .additional-title {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        font-style: italic !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .content {
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .footer {
+        font-size: 16px !important;
+        text-align: right !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .viewers {
+        font-size: 16px !important;
+        text-align: left !important;
+        font-family: "Times New Roman", sans-serif !important;
+      }
+      
+      .button-container {
+        display: flex !important;
+        justify-content: space-between !important;
+        margin-top: 16px !important; /* changed from 2 to 16 */
+      }
+      
+      .button {
+        margin-left: 8px !important; /* changed from 2 to 8 */
+      }
+      
+}

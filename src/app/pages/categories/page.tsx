@@ -215,13 +215,11 @@ const Categories = () => {
           <div className="logo-reponsive">
             {logoListState &&
               logoListState.map((item: LogoItem, index: number) => (
-                <a href="/">
-                  <img
-                    className={`img-logo-hi ${index === 0 ? 'img-logo-hi-100' : 'img-logo-hi-80'}`}
-                    key={index}
-                    src={item.image}
-                  />
-                </a>
+                <img
+                  className={`img-logo-hi ${index === 0 ? 'img-logo-hi-100' : 'img-logo-hi-80'}`}
+                  key={index}
+                  src={item.image}
+                />
               ))}
           </div>
           <nav
